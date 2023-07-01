@@ -13,6 +13,3 @@ app.get('/getform',function(req,res){
     res.sendFile(__dirname+"/form.html")
 })
 
-app.get('/getDataTable',function(req,res){
-    res.sendFile(__dirname+"/getdata.html")
-})
